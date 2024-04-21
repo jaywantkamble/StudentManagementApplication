@@ -19,10 +19,6 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
  		<!-- Spring Boot Starter Data JPA -->
@@ -41,6 +37,11 @@
    		 	<groupId>org.springframework.cloud</groupId>
     		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
     		<version>3.0.6</version>
+		</dependency>
+		<dependency>
+    		<groupId>io.springfox</groupId>
+    		<artifactId>springfox-boot-starter</artifactId>
+   			<version>3.0.0</version>
 		</dependency>
 		 <dependency>
     		<groupId>io.github.resilience4j</groupId>
